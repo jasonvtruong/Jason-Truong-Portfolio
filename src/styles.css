@@ -21,10 +21,22 @@ time, mark, audio, video {
 }
 
 body {
-  background-color: rgb(39, 42, 59);
+  background-color: rgb(32, 34, 49);
 }
 
 /* to display text in white */
 h1, h2, h3, p, a {
   color: white;
+}
+
+main {
+  margin: auto;
+  max-width: 1280px;
+  padding: 40px;
+}
+
+
+/* style across all pages */
+p {
+  font-family: "Rubik", sans-serif;
 }

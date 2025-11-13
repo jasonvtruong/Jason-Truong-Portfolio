@@ -1,11 +1,15 @@
-<div class="nav-bar">
+<header>
+  <a class="name" routerLink="/home" >Jason Truong</a>
+
   <nav>
-    <a routerLink="/home" routerLinkActive="active">Home</a>
-    <a routerLink="/projects" routerLinkActive="active">Projects</a>
-    <a routerLink="/about" routerLinkActive="active">About</a>
-    <a routerLink="/contact" routerLinkActive="active">Contact</a>
+    <ul>
+      <a routerLink="/home" routerLinkActive="active">Home</a>
+      <a routerLink="/projects" routerLinkActive="active">Projects</a>
+      <a routerLink="/about" routerLinkActive="active">About</a>
+      <a routerLink="/contact" routerLinkActive="active">Contact</a>
+    </ul>
   </nav>
-</div>
+</header>
 
 <div class="app-container">
   <router-outlet></router-outlet>

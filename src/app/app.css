@@ -1,17 +1,40 @@
-.nav-bar {
-  background-color: rgb(32, 30, 38);
-  padding: 18px 24px;
+@font-face {
+  font-family: 'Overpass';
+  src: url('../fonts/Overpass-Regular.ttf') format('truetype');
 }
 
-.nav-bar nav {
+@font-face {
+  font-family: 'Rubik';
+  src: url('../fonts/Rubik-Regular.ttf') format('truetype');
+}
+
+/* Header Styles */
+header {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(28, 26, 34);
+  padding: 18px 44px;
 }
 
-.nav-bar a {
+header nav {
+  /*display: flex;*/
+  /*justify-content: center;*/
+}
+
+nav > ul {
+  /*margin-top: 15px;*/
+  vertical-align: center;
+}
+
+header a {
   margin: 0 40px;
   font-family: sans-serif;
   font-size: 1.4em;
   color: white;
   text-decoration: none;
+}
+
+header .name {
+  font-size: 2.4em;
 }
