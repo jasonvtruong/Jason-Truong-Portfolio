@@ -8,12 +8,30 @@
   src: url('../fonts/Rubik-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Work Sans';
+  src: url('../fonts/WorkSans-VariableFont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-VariableFont.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-VariableFont.ttf') format('truetype');
+}
+
+
+
 /* Header Styles */
 header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   background-color: rgb(28, 26, 34);
+  margin: 0 5%;
   padding: 18px 44px;
 }
 
