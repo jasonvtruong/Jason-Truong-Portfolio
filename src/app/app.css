@@ -30,7 +30,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(28, 26, 34);
+  background-color: rgb(32, 30, 38);
   margin: 0 5%;
   padding: 18px 44px;
 }
@@ -48,14 +48,21 @@ nav > ul {
 
 header a {
   margin: 0 20px;
-  font-family: sans-serif;
+  font-family: "Overpass", sans-serif;
   font-size: 1.4em;
+  font-weight: 500;
   color: white;
   text-decoration: none;
 }
 
 header .name {
+  font-family: "Work Sans", sans-serif;
   font-size: 2.4em;
+  font-weight: 600;
+}
+
+header a, header .name {
+  text-transform: uppercase;
 }
 
 
@@ -64,4 +71,9 @@ footer {
   margin: 0 auto;
   background-color: rgb(28, 26, 34);
   max-width: 1280px;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
 }
