@@ -21,12 +21,35 @@ time, mark, audio, video {
 }
 
 body {
-  background-color: rgb(39, 42, 59);
+  /*background-color: rgb(39, 42, 59);*/
+  background: linear-gradient(to top right, rgb(63, 59, 113), rgb(39, 42, 59) 50%) fixed;
 }
 
 /* to display text in white */
 h1, h2, h3, p, a {
   color: white;
+}
+
+/* heading for each page */
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 5em;
+  font-weight: 500;
+  padding: 40px 0;
+  width: 70%;
+}
+
+h1:after {
+  content: "_";
+  color: rgb(77, 116, 195);
+  font-weight: bold;
+  position: relative;
+  top: -10px;
+  left: 13px;
+}
+
+h2, h3 {
+  font-family: "Work Sans", sans-serif;
 }
 
 main {
@@ -39,4 +62,6 @@ main {
 /* style across all pages */
 p {
   font-family: "Inter", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5;
 }

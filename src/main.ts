@@ -10,9 +10,9 @@ const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: MainPage},    // eagerly loaded
   {path: 'projects', component: ProjectList},
-  {path: 'about',     // lazy loaded
+  {path: 'resume',     // lazy loaded
     loadComponent: () =>
-      import('./app/about-page/about-page').then(m => m.AboutPage)},
+      import('./app/resume-page/resume-page').then(m => m.ResumePage)},
   {path: 'contact',
     loadComponent: () =>
       import('./app/contact-page/contact-page').then(m => m.ContactPage)},

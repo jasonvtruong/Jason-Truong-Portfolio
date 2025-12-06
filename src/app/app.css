@@ -30,7 +30,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: rgb(32, 30, 38);
+  /*background-color: rgb(32, 30, 38);*/
   margin: 0 5%;
   padding: 18px 44px;
 }
@@ -47,12 +47,16 @@ nav > ul {
 }
 
 header a {
-  margin: 0 20px;
+  margin: 0 10px;
   font-family: "Overpass", sans-serif;
   font-size: 1.4em;
   font-weight: 500;
   color: white;
   text-decoration: none;
+}
+
+nav a {
+  padding: 10px 18px;
 }
 
 header .name {
@@ -61,19 +65,26 @@ header .name {
   font-weight: 600;
 }
 
-header a, header .name {
-  text-transform: uppercase;
-}
-
 
 /* Footer Styles */
 footer {
   margin: 0 auto;
+  padding: 6px 0;
   background-color: rgb(28, 26, 34);
   max-width: 1280px;
+
+  border-radius: 36px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 footer img {
   width: 40px;
   height: 40px;
+}
+
+footer p {
+  color: lightgrey;
 }
