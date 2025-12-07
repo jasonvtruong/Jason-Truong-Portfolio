@@ -10,10 +10,7 @@ const routes: Routes = [
   {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: MainPage},    // eagerly loaded
   {path: 'projects', component: ProjectList},
-  {path: 'resume',     // lazy loaded
-    loadComponent: () =>
-      import('./app/resume-page/resume-page').then(m => m.ResumePage)},
-  {path: 'contact',
+  {path: 'contact',     // lazy loaded
     loadComponent: () =>
       import('./app/contact-page/contact-page').then(m => m.ContactPage)},
   {path: '**', // Wildcard route

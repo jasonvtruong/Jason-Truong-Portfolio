@@ -36,7 +36,7 @@
 h2 {
   font-weight: bold;
   font-size: 3em;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
 h3 {
@@ -137,7 +137,7 @@ div span {
 }
 
 div span:hover {
-  background-color: rgb(105, 160, 193);
+  background-color: rgb(101, 155, 186);
   transition: 0.3s;
 }
 

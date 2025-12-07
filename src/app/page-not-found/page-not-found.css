@@ -1,0 +1,39 @@
+/*h1, h2 {*/
+/*  font-family: "Overpass", sans-serif;*/
+/*  color: white;*/
+/*  text-align: center;*/
+/*  margin: 0;*/
+/*}*/
+
+section {
+  margin: 100px 0 100px;
+}
+
+h2, p {
+  text-align: center;
+}
+
+h2 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 3em;
+}
+
+/*p {*/
+/*  font-family: "Rubik", sans-serif;*/
+/*  text-align: center;*/
+/*}*/
+
+a {
+  color: rgb(77, 116, 195);
+  font-size: 1.3em;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(117, 159, 244);
+  transition: 0.3s;
+}
+
+a:active {
+  color: white;
+}
