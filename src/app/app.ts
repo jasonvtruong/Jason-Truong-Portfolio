@@ -1,9 +1,11 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import {RouterLink, RouterLinkActive, RouterOutlet} from '@angular/router';
+import {NgOptimizedImage} from '@angular/common';
+import {HoverHighlightDirective} from './directives/hover-highlight';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, RouterLink, RouterLinkActive, NgOptimizedImage, HoverHighlightDirective],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

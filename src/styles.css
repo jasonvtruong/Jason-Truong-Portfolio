@@ -1,1 +1,70 @@
 /* You can add global styles to this file, and also import other style files */
+/* Reset Styles */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, sub, sup, tt, var,
+u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  /*background-color: rgb(39, 42, 59);*/
+  background: linear-gradient(to top right, rgb(63, 59, 113), rgb(39, 42, 59) 50%) fixed;
+}
+
+/* to display text in white */
+h1, h2, h3, p, a {
+  color: white;
+}
+
+/* heading for each page */
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-size: 5em;
+  font-weight: 500;
+  padding: 40px 0;
+  width: 70%;
+}
+
+h1:after {
+  content: "_";
+  color: rgb(77, 116, 195);
+  font-weight: bold;
+  position: relative;
+  top: -10px;
+  left: 13px;
+}
+
+h2, h3 {
+  font-family: "Work Sans", sans-serif;
+}
+
+main {
+  margin: auto;
+  max-width: 1280px;
+  padding: 40px;
+}
+
+
+/* style across all pages */
+p {
+  font-family: "Inter", sans-serif;
+  font-size: 1.3em;
+  line-height: 1.5;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
