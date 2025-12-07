@@ -5,7 +5,6 @@ import {MatIcon} from '@angular/material/icon';
 @Component({
   selector: 'app-contact-page',
   imports: [
-    NgOptimizedImage,
     MatIcon
   ],
   templateUrl: './contact-page.html',
